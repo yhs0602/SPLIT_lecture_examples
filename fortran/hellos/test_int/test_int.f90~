@@ -1,0 +1,8 @@
+program int_test
+implicit none
+integer m, i
+m=2147483645
+do i=1,10
+print *,"i=",i,"m+i:,m+i
+end do
+end program int_test

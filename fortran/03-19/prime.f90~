@@ -1,0 +1,4 @@
+program prime
+implicit none
+
+end program prime

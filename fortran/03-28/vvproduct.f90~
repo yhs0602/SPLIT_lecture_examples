@@ -1,0 +1,4 @@
+program vvproduct
+  implicit none
+  integer, parameter :: n = 10000000
+  integer :: i, j, k, count1, count2, cr, cmax

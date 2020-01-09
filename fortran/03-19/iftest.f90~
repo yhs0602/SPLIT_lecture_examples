@@ -1,0 +1,8 @@
+program iftest
+implicit none
+integer i
+print*, "give me i"
+read *, i
+
+
+end program iftest

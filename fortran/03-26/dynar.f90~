@@ -1,0 +1,8 @@
+program dynamic_ar
+implicit none
+integer n
+integer, allocatable A(:,:)
+read *, n
+! make n by n matrix
+allocate(A(n,n))
+end program dynamic_ar

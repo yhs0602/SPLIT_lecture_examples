@@ -1,0 +1,6 @@
+program wtd2
+implicit none
+integer i, io
+open(unit=10, file='won.data',action='read', iostat=io)
+
+end program wtd2

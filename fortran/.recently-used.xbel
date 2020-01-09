@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/2019_1/a2019-13674/command.odt" added="2019-03-07T07:17:57Z" modified="2019-03-21T07:33:07Z" visited="2019-03-07T07:17:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 4.0" exec="&apos;soffice %u&apos;" modified="2019-03-21T07:33:07Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/2019_1/a2019-13674/History_CS.pdf" added="2019-03-12T07:25:16Z" modified="2019-03-12T07:25:16Z" visited="2019-03-12T07:25:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-03-12T07:25:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/2019_1/a2019-13674/prepare.pdf" added="2019-03-12T07:25:39Z" modified="2019-03-12T07:25:39Z" visited="2019-03-12T07:25:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-03-12T07:25:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/2019_1/a2019-13674/unix.pdf" added="2019-03-12T07:33:40Z" modified="2019-03-21T06:41:05Z" visited="2019-03-12T07:33:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-03-21T06:41:05Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/2019_1/a2019-13674/IntroductionToFTN95.pdf" added="2019-03-21T06:38:31Z" modified="2019-03-21T07:11:04Z" visited="2019-03-21T06:38:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-03-21T07:11:04Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/2019_1/a2019-13674/Fortran95_notes.pdf" added="2019-03-21T07:12:08Z" modified="2019-03-28T08:02:43Z" visited="2019-03-21T07:12:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-03-28T08:02:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/2019_1/a2019-13674/pdf/Fortran95_notes.pdf" added="2019-04-09T06:55:34Z" modified="2019-04-09T06:55:34Z" visited="2019-04-09T06:55:34.503090Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2019-04-09T06:55:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

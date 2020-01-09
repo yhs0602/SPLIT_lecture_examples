@@ -1,0 +1,4 @@
+program dowhiletest
+implicit none
+
+end program dowhiletest

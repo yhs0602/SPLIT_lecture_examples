@@ -1,0 +1,4 @@
+program dotest
+implicit none
+
+end program dotest

@@ -1,0 +1,7 @@
+end program ludecomp
+
+
+
+integer,dimension(5,5) :: A
+implicit none
+program ludecomp

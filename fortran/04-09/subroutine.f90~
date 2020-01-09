@@ -1,0 +1,50 @@
+program subroutine_test
+  implicit none
+  real,allocatable ::A(:,:),L(:,:),U(:,:),b(:),x(:)
+  integer :: i,j, n
+  n = 5
+  allocate (A(n,n),L(n,n),U(n,n),b(n),x(n))
+  do i=1,n
+     do j = 1,n
+        A(i,j) =0;L(i,i)=0;U(i,i)=0;
+     enddo
+     b(i)=0; x(i) = 0;
+  enddo
+  do i=1,n
+     A(i,i)=2.0
+  enddo
+
+  do i = 2,n
+     A(i,i-1)=1.0
+     A(i-1,i)=1.0
+  enddo
+  call LU(A,L,U,n)
+
+  call showmat(A,n)
+  
+end program subroutine_test
+
+subroutine showmat(A,n)
+  implicit none
+  integer :: i, n
+  real ::A(n,n)
+  do i = 1,n
+     print "( *(f7.3) )", A(i,:)
+  enddo
+  n = n +1
+end subroutine showmat
+
+subroutine LU(A,L,U,n)
+  implicit none
+  real ::A(n,n),L(n,n),U(n,n)
+  integer :: i,j,k,n
+  do i =1,n
+     do j=i+1,n
+        L(j,i) = (U(j,i)/U(i,i))
+        U(j,:) = U(j,:)-L(j,i)*U(i,:) 
+        ! U(j,i) = U(j,i) - U(j,i)/U(i,i)*U(i,i)=0
+     enddo
+  enddo
+! U =upper triangle
+
+end subroutine LU

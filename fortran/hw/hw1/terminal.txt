@@ -1,0 +1,112 @@
+[a2019-13674@workstation1 hw1]$ ls
+matmult  matmult.f90  matmult.f90~
+[a2019-13674@workstation1 hw1]$ ./matmult
+ time=   8.60799980      seconds.
+ time=  0.195999995      seconds.
+ time=   7.93699980      seconds.
+ time=   4.58300018      seconds.
+ time=   10.1780005      seconds.
+ time=   7.93499994      seconds.
+ time=   4.50400019      seconds.
+ time=   10.2510004      seconds.
+[a2019-13674@workstation1 hw1]$ ./matmult
+ time=   8.61200047      seconds.
+ time=  0.199000001      seconds.
+ time=   7.96000004      seconds.
+ time=   4.51399994      seconds.
+ time=   10.1650000      seconds.
+ time=   7.96299982      seconds.
+ time=   4.52699995      seconds.
+ time=   10.3100004      seconds.
+[a2019-13674@workstation1 hw1]$ ./matmult
+ time=   8.44699955      seconds.
+ time=  0.195999995      seconds.
+ time=   7.93499994      seconds.
+ time=   4.50199986      seconds.
+ time=   10.1199999      seconds.
+ time=   7.92799997      seconds.
+ time=   4.49300003      seconds.
+ time=   10.2049999      seconds.
+[a2019-13674@workstation1 hw1]$ 
+[a2019-13674@workstation1 hw1]$ f90 -o matmult matmult.f90
+bash: f90: command not found
+[a2019-13674@workstation1 hw1]$ gfortran -o matmult matmult.f90
+matmult.f90:149.20:
+
+           i = i + 1
+                    1
+matmult.f90:147.20:
+
+        do i=1,n-3,4
+                    2
+Error: Variable 'i' at (1) cannot be redefined inside loop beginning at (2)
+matmult.f90:151.20:
+
+           i = i + 1
+                    1
+matmult.f90:147.20:
+
+        do i=1,n-3,4
+                    2
+Error: Variable 'i' at (1) cannot be redefined inside loop beginning at (2)
+matmult.f90:153.20:
+
+           i = i + 1
+                    1
+matmult.f90:147.20:
+
+        do i=1,n-3,4
+                    2
+Error: Variable 'i' at (1) cannot be redefined inside loop beginning at (2)
+matmult.f90:155.20:
+
+           i = i + 1
+                    1
+matmult.f90:147.20:
+
+        do i=1,n-3,4
+                    2
+Error: Variable 'i' at (1) cannot be redefined inside loop beginning at (2)
+[a2019-13674@workstation1 hw1]$ gfortran -o matmult matmult.f90
+[a2019-13674@workstation1 hw1]$ ./matmult
+ time=   9.27700043      seconds.
+ time=  0.202000007      seconds.
+ time=   8.74499989      seconds.
+ time=   4.96999979      seconds.
+ time=   10.5270004      seconds.
+ time=   8.77000046      seconds.
+ time=   4.96199989      seconds.
+ time=   10.5369997      seconds.
+ time=   4.80900002      seconds.
+ time=   2.49499989      seconds.
+ time=   4.51800013      seconds.
+[a2019-13674@workstation1 hw1]$ gfortran -o matmult matmult.f90
+[a2019-13674@workstation1 hw1]$ ./matmult
+ time=   9.38700008      seconds.
+ time=  0.202999994      seconds.
+ time=   8.74699974      seconds.
+ time=   4.98699999      seconds.
+ time=   10.5970001      seconds.
+ time=   8.79800034      seconds.
+ time=   5.12500000      seconds.
+ time=   10.8520002      seconds.
+ time=   4.80999994      seconds.
+ time=   3.61800003      seconds.
+ time=   4.49100018      seconds.
+[a2019-13674@workstation1 hw1]$ gfortran -o matmult matmult.f90
+[a2019-13674@workstation1 hw1]$ ./matmult
+ time=   9.27000046      seconds.
+ time=  0.202999994      seconds.
+ time=   8.71599960      seconds.
+ time=   4.98699999      seconds.
+ time=   10.5860004      seconds.
+ time=   8.72099972      seconds.
+ time=   4.96000004      seconds.
+ time=   10.5649996      seconds.
+ time=   4.90100002      seconds.
+ time=   3.58899999      seconds.
+ time=   4.49200010      seconds.
+[a2019-13674@workstation1 hw1]$ 
+[a2019-13674@workstation1 hw1]$ 
+[a2019-13674@workstation1 hw1]$ 
+[a2019-13674@workstation1 hw1]$ 

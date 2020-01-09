@@ -1,0 +1,27 @@
+Code Performance
+
+   1) Using a fast algorithm-->Instead of using DFT(O(n^2)), use FFT(O(nlogn))
+   2) Using unformatted I/O
+   3) Using higher optimizations levels (Use -OLevel)
+   4) Performing "aggressive" manual optimization 
+   5) Writing in assembly language
+
+1. time measurement
+-Use internal function calls
+-system_clock(int count, int count_rate, int count_max): measures wall time
+-cpu_time(real time):measures only cpu time
+
+2. memory optimization
+-fully utilizes cache memory -need to know hardware info and assembly language
+(-->getconf LEVEL1_DCACHE_LINESIZE)
+(-->cat /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size)
+-memory access pattern-temporal, spatial locality
+-Loop unrolling-decrease loop overhead, increase cache hit
+(-->possible on the compiler option)
+
+3. fortran compiler optimization
+-gfortran -O0 (no optimization)
+-gfortran -O2 (optimize except loop unrolling and function inlining)
+-gfortran -O3 (-O2 + function inlining + registeries optimization)
+
+
