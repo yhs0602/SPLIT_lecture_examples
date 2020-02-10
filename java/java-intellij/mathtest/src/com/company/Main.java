@@ -39,7 +39,7 @@ public class Main {
         System.out.println("=====");
 
         for (int i = 0; i < ox.length; i++) {
-            System.out.println((i + 1) + " " + (ox[i] ? 'O' : 'X'));
+            System.out.println(  (i + 1)   + " " + (ox[i] ? 'O' : 'X'));
         }
 
     }
